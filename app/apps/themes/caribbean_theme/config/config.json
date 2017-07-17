@@ -1,0 +1,14 @@
+{
+  "name" : "Caribbean Theme",
+  "description" : "",
+  "thumb" : "images/image.png",
+  "helpers": [
+    "Themes::CaribbeanTheme::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["caribbean_theme_on_install_theme"],
+    "on_inactive": ["caribbean_theme_on_uninstall_theme"],
+    "on_theme_settings": ["caribbean_theme_settings"]
+    //here all your hooks
+  }
+}
